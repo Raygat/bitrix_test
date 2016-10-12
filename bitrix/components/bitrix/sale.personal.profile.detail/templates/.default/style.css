@@ -1,0 +1,63 @@
+.sale-profile-detail-link-list{
+	margin-bottom: 20px;
+}
+.req{color:red;}
+
+.bx-slst .dropdown-block.bx-ui-slst-input-block{
+	border: 1px solid #CCD5DB;
+}
+
+.sale-profile-detail-form .form-control:hover, .location-block-wrapper .dropdown-block.bx-ui-slst-input-block:hover{
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.sale-personal-profile-detail-form-title-row h4{
+	padding-top: 10px;
+}
+
+.sale-personal-profile-detail-btn-load-file{
+	position: absolute;
+	min-width: 120px;
+}
+.sale-personal-profile-detail-input-file{
+	margin-left: -13px;
+}
+.sale-personal-profile-btn-block{
+	padding-bottom: 100px;
+}
+.sale-personal-profile-detail-form-file{
+	padding-top: 15px;
+}
+@media (min-width: 992px)
+{
+	.text-md-right{
+		text-align: right;
+	}
+
+	.sale-profile-detail-form .form-group{
+		display: table;
+		width: 100%;
+	}
+
+	.sale-personal-profile-detail-form-label, .sale-profile-detail-form input[class*="col-"] {
+		float: none !important;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+.sale-personal-profile-detail-form-label.vertical-align-top{
+	vertical-align: top;
+}
+
+@media (max-width: 992px)
+{
+	.sale-personal-profile-detail-form-title-row h4
+	{
+		border-bottom: 1px solid #CCD5DB;
+		padding: 20px 0 10px;
+	}
+}

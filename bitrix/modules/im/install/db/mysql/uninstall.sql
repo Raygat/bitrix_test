@@ -1,0 +1,12 @@
+DROP TABLE if exists b_im_chat;
+DROP TABLE if exists b_im_message;
+DROP TABLE if exists b_im_relation;
+DROP TABLE if exists b_im_recent;
+DROP TABLE if exists b_im_status;
+DROP TABLE if exists b_im_message_param;
+DROP TABLE if exists b_im_bot;
+DROP TABLE if exists b_im_bot_chat;
+DROP TABLE if exists b_im_bot_token;
+DROP TABLE if exists b_im_command;
+DROP TABLE if exists b_im_command_lang;
+DROP TABLE if exists b_im_alias;

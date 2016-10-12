@@ -1,0 +1,67 @@
+.im-desktop-content #workarea { height: auto; }
+.im-desktop-content .bx-messenger-box { margin: 0; border-top: 0; width: auto;}
+.im-desktop-content .bx-messenger-history { margin: 0; width: auto; }
+.im-desktop-content .bx-notifier-indicator:hover { background: none; }
+.im-desktop-content .bx-notifier-hide { display: inline-block}
+.im-desktop-content .bx-desktop-content-overflow { overflow:auto; height: 450px; background-color: #fff; }
+.im-desktop-content .placeholder-lf { padding-top: 20px;}
+
+.im-desktop-content #header {  min-width: 660px;  overflow: hidden;  }
+.bx-desktop-appearance-menu {display: none;}
+.bx-desktop-appearance-content { margin-left: 0; }
+table.bx-layout-inner-inner-table td.bx-layout-inner-inner-cont { padding-right: 20px!important; }
+
+@media screen and (max-width: 1013px) and (min-width: 800px) {
+	.im-desktop-content .bx-messenger-call-overlay { margin-left: 200px!important;  }
+	.im-desktop-content .bx-messenger-box-contact { width: 200px!important;  }
+	.im-desktop-content .bx-messenger-box-dialog { margin-left: 200px!important; }
+	.im-desktop-content .bx-messenger-box-extra { margin-left: 200px!important; }
+	.im-desktop-content .bx-messenger-panel-title-chat-input { width: 100%!important;}
+	.im-desktop-content #disk-wrap .right_section { display: none; }
+	.im-desktop-content #disk-wrap .header_section_one { display: none; }
+	.im-desktop-content #disk-wrap .header_section_two { width: auto; }
+}
+@media screen and (max-width: 799px)  {
+	.im-desktop-content .bx-messenger-command-popup { width: 450px; }
+	.im-desktop-content .bx-messenger-command-popup-help { display: none; }
+	.im-desktop-content .bx-messenger-chatlist-group-add { display: none; }
+	.im-desktop-content .bx-messenger-box-contact { width: 70px!important;  }
+	.im-desktop-content .bx-messenger-call-overlay { margin-left: 70px!important; }
+	.im-desktop-content .bx-messenger-box-dialog { margin-left: 70px!important; }
+	.im-desktop-content .bx-messenger-box-extra { margin-left: 70px!important; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-recent-group {  margin: 2px 2px 2px 2px; text-align: center; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-recent-group-title { font-size: 10px!important; padding2: 0; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-panel-title-chat-input { width: 100%!important; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-user { display: none; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-count { position: absolute; right: 7px!important;; margin-top:-3px!important;; }
+	.bx-mac .im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-count { position: absolute!important; right: 11px!important;; margin-top:-3px!important; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-group-title {  padding: 0 7px 0 15px!important; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-group-title:before { left: 4px!important;}
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-group-open .bx-messenger-cl-group-title:before { left: 4px!important; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-avatar { margin: 0; float: none; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-item { padding: 6px 11px 6px 11px }
+	.im-desktop-content .bx-messenger-box-contact-hover,
+	.im-desktop-content .bx-messenger-box-contact-active { width: 200px!important; background-color: #fff; z-index: 500; }
+	.im-desktop-content .bx-messenger-box-contact-hover .bx-messenger-chatlist-group-add,
+	.im-desktop-content .bx-messenger-box-contact-active .bx-messenger-chatlist-group-add { display: block; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-panel-status { margin-left: 9px; }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-panel-status-text { opacity: 0 }
+	.im-desktop-content .bx-messenger-box-contact-normal .bx-messenger-cl-panel-status-arrow { opacity: 0 }
+	.im-desktop-content #disk-wrap .right_section { display: none; }
+	.im-desktop-content #disk-wrap .header_section_one { display: none; }
+	.im-desktop-content #disk-wrap .header_section_two { width: auto; }
+	.im-desktop-content .bx-messenger-editform { padding: 0 22px; }
+	.im-desktop-content .bx-messenger-editform-progress { display: none; }
+	.im-desktop-content .bx-messenger-editform-textarea { padding: 9px 0; }
+}
+@media screen and (max-width: 840px) {
+	.im-desktop-content .bx-messenger-panel-call-video,
+	.im-desktop-content .bx-messenger-panel-call-audio { overflow: hidden; padding-left: 24px; padding-right: 0; width: 0; }
+	.im-desktop-content .bx-messenger-panel-call-audio:before { background-position: -58px -379px; }
+	.im-desktop-content .bx-messenger-panel-chat { overflow: hidden; padding-left: 26px; padding-right: 0; width: 0; }
+	.im-desktop-content .bx-messenger-content-item-avatar { opacity: 0; }
+	.im-desktop-content .bx-messenger-content-item-2 .bx-messenger-content-item-avatar { opacity: 1; }
+	.im-desktop-content .bx-messenger-content-item-2 .bx-messenger-content-item-menu { margin-right: -44px; }
+	.im-desktop-content .bx-messenger-content-item-content { margin-right: 31px; }
+	.im-desktop-content .bx-messenger-textarea-open-lines .bx-messenger-textarea-open-invite-text { display: none; }
+}
